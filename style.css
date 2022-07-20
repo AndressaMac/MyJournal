@@ -1,0 +1,87 @@
+
+.navbar {
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  margin-top: 5rem;
+  width: 25%;
+}
+
+.botaoIndex{
+  margin-top: 2rem;
+}
+.conteudo {
+  background-color: rgba(126, 124, 124, 1);
+}
+.botao{
+  margin-top: 2rem;
+  width: 10rem;
+}
+.titulo{
+  text-align: left;
+  padding-left: 5rem;
+  size: 5rem;
+  margin-top: 5rem;
+  color: black;
+}
+.texto {
+  width: 40%;
+  padding-left: 2.5rem;
+  font-size: 1.25rem;
+  color: black;
+}
+.textarea{
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+  width: 40%;
+  height: 100%;
+}
+.labelF {
+  margin-top: 2rem;
+  padding-left: 2rem;
+  font-size: 2rem;
+  
+}
+.diario {
+  display: flex;
+  flex-direction: column;
+
+}
+.botao{
+  width: 25%;
+  margin-left: 2rem;
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+
+.releia {
+  text-decoration: none;
+  list-style: none;
+  background-color: white;
+  width: 20%;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 4rem;
+}
+.data{
+  width: 15%;
+  margin-left: 2rem;
+  margin-top: 1.25rem;
+}
