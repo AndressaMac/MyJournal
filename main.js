@@ -16,10 +16,12 @@ function salvar() {
   let textarea = text.value
   let date = data.value
   list.push({ data: date, text: textarea })
-
   for (let index = 0; index < list.length; index++) {
-    lista.innerHTML =  list[index].data 
-}}
+    lista.innerHTML = list[index].data
+  }
+  let stringfy = JSON.stringify(list[list.length - 1])
+  sessionStorage.setItem('text', stringfy)
+}
 
 /*/
 function printList() {
@@ -30,3 +32,10 @@ function printList() {
   })
 }
 */
+
+function abrirTexto() {
+  window.location.href = 'textoSalvo.html'
+  
+}
+
+
